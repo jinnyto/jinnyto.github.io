@@ -1,0 +1,18 @@
+domain: example.com
+url: https://example.com
+baseurl: example.com
+
+title: Jinny To
+email: hello@hello.com
+author: Jinny To
+
+lang: en
+
+plugins:
+  - jekyll-seo-tag
+
+color: "#00CEFD"
+
+rrss:
+  email: "hello@hello.com"
+  linkedin: "https://www.linkedin.com/in/jinnyto/"
