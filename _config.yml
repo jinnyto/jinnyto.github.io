@@ -1,9 +1,9 @@
 domain: example.com
 url: https://example.com
-baseurl: 
+baseurl:
 
 title: Jinny To
-email: hello@hello.com
+email: "hello@jinny.to"
 author: Jinny To
 
 lang: en
@@ -14,5 +14,5 @@ plugins:
 color: "#00CEFD"
 
 rrss:
-  email: "hello@hello.com"
-  linkedin: "https://www.linkedin.com/in/jinnyto/"
+  email: "hello@jinny.to"
+  linkedin: "https://www.linkedin.com/in/jinnyto"
