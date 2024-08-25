@@ -1,5 +1,6 @@
 ---
 layout: home
+hide_in_nav: true
 ---
 
 # Thoughts
