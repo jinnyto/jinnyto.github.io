@@ -63,7 +63,8 @@ kbd,
 pre,
 samp {
     font-family: ui-monospace, SFMono-Regular, 'Courier New', Monaco, Consolas, Liberation Mono, Courier New, monospace;
-    font-size: 1em
+    font-size: 1em;
+    white-space: pre-wrap
 }
 
 small {
