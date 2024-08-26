@@ -12,7 +12,7 @@ layout: base
       </div>
       <div class="flex flex-wrap justify-center gap-4">
         {% for tag in page.tags %}
-        <a class="text-sm text-slate-700 underline md:no-underline hover:underline dark:text-slate-100/80" href="{{ '/tags#' | append: tag | relative_url }}">#{{tag}}</a>
+        <a class="text-sm text-slate-700 no-underline hover:underline dark:text-slate-100/80" href="{{ '/tags#' | append: tag | relative_url }}">#{{tag}}</a>
         {% endfor %}
       </div>
       <div class="mx-auto p-4">
