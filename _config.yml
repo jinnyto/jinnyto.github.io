@@ -1,6 +1,7 @@
 domain: jinny.to
 url: https://jinny.to
 baseurl: ''
+permalink: /:title/
 
 title: Jinny To
 email: "hello@jinny.to"
