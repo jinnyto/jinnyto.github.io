@@ -693,8 +693,9 @@ h6 {
 .prose :where(figcaption):not(:where([class~=not-prose], [class~=not-prose] *)) {
     color: var(--tw-prose-captions);
     font-size: .875em;
-    line-height: 1.4285714;
-    margin-top: .8571429em
+    line-height: 1.2;
+    margin-top: .8571429em;
+    text-align: center;
 }
 
 .prose {
@@ -708,7 +709,7 @@ h6 {
     --tw-prose-hr: #e5e7eb;
     --tw-prose-quotes: #111827;
     --tw-prose-quote-borders: #e5e7eb;
-    --tw-prose-captions: #6b7280;
+    --tw-prose-captions: #64748b;
     --tw-prose-kbd: #111827;
     --tw-prose-kbd-shadows: 17 24 39;
     --tw-prose-code: #111827;

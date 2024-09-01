@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Lorem markdownum mihi
+title: Let's try an image caption
 image: assets/images/test-post_landscape-1.png
 tags:
   - Animal
@@ -12,6 +12,12 @@ comments: true
 ---
 
 ## Nepotibus spectantia umeros qui equi
+
+
+<figure>
+  <img src="/assets/images/test-post_square-3.png">
+  <figcaption>Heyo this is where the picture is from</figcaption>
+</figure>
 
 Lorem markdownum patent honor: deae vis Argolis? Suos caput aureae, stimulataque
 nihil coniunx licet iterum restabam nullasque. Vetus et teguntur regia, rege
