@@ -10,9 +10,9 @@ layout: base
         <!-- <span class="text-slate-700 dark:text-slate-100/80">{{page.author | default: site.author }}</span> -->
         <p class="text-slate-700 dark:text-slate-100/80">{{ page.date | date: "%B %-d, %Y" }}</p>
       </div>
-      <div class="flex flex-wrap justify-center gap-4">
+      <div class="flex flex-wrap justify-center gap-4 text-sm text-slate-700"><i>In:</i>
         {% for tag in page.tags %}
-        <a class="text-sm text-slate-700 no-underline hover:underline dark:text-slate-100/80" href="{{ '/tags#' | append: tag | relative_url }}">#{{tag}}</a>
+        <i><a class="text-sm text-slate-700 underline dark:text-slate-100/80" href="{{ '/tags#' | append: tag | relative_url }}">{{tag}}</a></i>
         {% endfor %}
       </div>
       <div class="mx-auto p-4">

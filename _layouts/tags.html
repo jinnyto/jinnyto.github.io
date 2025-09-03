@@ -7,7 +7,7 @@ layout: base
     <h1 class="text-xl xl:text-3xl py-4">Tags</h1>
     <ul class="list-disc list-inside tag-list">
       {% for tag in site.tags %}
-      <li class="text-lg py-1"><a href="#{{ tag[0] }}" class="hover:underline">#{{ tag[0] }}</a></li>
+      <li class="text-lg py-1"><a href="#{{ tag[0] }}" class="hover:underline">{{ tag[0] }}</a></li>
       {% endfor %}
     </ul>
   </div>
@@ -15,7 +15,7 @@ layout: base
   <div class="break-inside-avoid-column">
     <h2 class="text-xl xl:text-2xl py-4 font-bold">Posts ({{ site.posts | size }})</h2>
     {% for tag in site.tags %}
-      <h3 id="{{ tag[0] }}" class="text-lg md:text-xl py-3 md:pb-4 md:pt-6"># {{ tag[0] }} ({{ tag[1] | size }})</h3>
+      <h3 id="{{ tag[0] }}" class="text-lg md:text-xl py-3 md:pb-4 md:pt-6">{{ tag[0] }} ({{ tag[1] | size }})</h3>
     <ul class="list-disc list-inside">
       {% for post in tag[1] %}
       <li class="text-slate-500 dark:text-slate-100 py-2">{{ post.date | date: "%b %-d, %Y" }} - <a href="{{ post.url | relative_url }}" class="text-slate-700 dark:text-slate-100 hover:underline">{{ post.title }}</a></li>
