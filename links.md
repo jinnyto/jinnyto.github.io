@@ -1,6 +1,6 @@
 ---
 title: Links
-layout: post
+layout: page
 permalink: /links/
 ---
 
